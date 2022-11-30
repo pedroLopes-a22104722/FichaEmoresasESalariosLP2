@@ -42,4 +42,9 @@ public class Tarefa {
         return finished;
     }
 
+    public int getTaskPrice(){
+
+        return 500 + (10 * getTime());
+    }
+
 }
